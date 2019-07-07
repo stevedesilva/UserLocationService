@@ -13,22 +13,6 @@ Spring Boot - using an embedded tomcat service exposed on port 8080
 
 Run the UserLocationApplication is tjava class which starts the tomcat on 8080.
 
+Running the app
 
-## Building the service
-
-mvn package
-
-## Running the service
-The executable jar is located in the target directory:
-
-java -jar target/user-location-1.0.0.jar
-
-## User Location Service endpoint
-
-Run using client tool (e.g. Postman) 
-
-Header
-Content-Type application/json
-
-GET http://localhost:8080/users
-
+http://localhost:8080/users
